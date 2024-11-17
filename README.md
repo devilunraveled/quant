@@ -1,6 +1,12 @@
 # Quantization
 ANLP assignment based on quantization
 
+## How to Run 
+
+The assignment had 5 different type of quantizations, each can be run through the command `python task.py {i}` where i can be 1, 2, 3, 4, 5.
+
+### Results
+
 | Metric     | Manual Quantization |           | BitsAndBytes Quantization |             |             |
 | ---------- | ------------------- | --------- |---------------------------|-------------|-------------|
 |            | Whole (Task 1)      | Selective (Task 2) | 8-bit HF (Task 3)       | 4-bit HF (Task 4) | 4-bit NF4 (Task 5) |
